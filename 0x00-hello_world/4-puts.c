@@ -1,3 +1,4 @@
+/* main - this is the main function */
 #include <stdio.h>
 
 int main(void)
