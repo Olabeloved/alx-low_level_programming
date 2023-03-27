@@ -3,7 +3,7 @@
 /**
  * _abs - checks for absolute value
  *
- * @n - parameter to check
+ * @n: the character to check
  *
  * Return: the absolute value of n
  */
