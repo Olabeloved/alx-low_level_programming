@@ -8,22 +8,18 @@
 
 int main(void)
 {
-	int first = 1;
-	int second = 2;
-	int sum;
+	long int first = 1;
+	long int second = 2;
+	long int sum;
 	int i;
 
-	printf("%d, %d, ", first, second);
+	printf("%ld, %ld, ", first, second);
 
-	for (i = 3; i <= 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 	sum = first + second;
-	if (sum < 0)
-	{
-		break;
-	}
-	printf("%d", sum);
-	if (i < 50)
+	printf("%ld", sum);
+	if (i < 48)
 	{
 		printf(", ");
 	}
