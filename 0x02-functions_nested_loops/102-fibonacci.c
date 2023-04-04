@@ -18,11 +18,7 @@ int main(void)
 	for (i = 0; i < 48; i++)
 	{
 	sum = first + second;
-	printf("%ld", sum);
-	if (i < 48)
-	{
-		printf(", ");
-	}
+	printf(", %ld", sum);
 	first = second;
 	second = sum;
 	}
