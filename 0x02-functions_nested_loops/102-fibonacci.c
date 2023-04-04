@@ -6,10 +6,11 @@
  * Return: 0
  */
 
-int main(void);
+int main(void)
 {
 	int first = 1;
 	int second = 2;
+	int sum;
 
 	printf("%d, %d, ", first, second);
 
