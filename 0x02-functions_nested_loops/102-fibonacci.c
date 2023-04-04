@@ -11,10 +11,11 @@ int main(void)
 	int first = 1;
 	int second = 2;
 	int sum;
+	int i;
 
 	printf("%d, %d, ", first, second);
 
-	for (int i = 3; i <= 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 	sum = first + second;
 	if (sum < 0)
