@@ -1,4 +1,4 @@
-#C programming language
+# C programming language
 
 ----
-This is where i document my codes for learning C
+This is where I will document my codes for learning C programming language
